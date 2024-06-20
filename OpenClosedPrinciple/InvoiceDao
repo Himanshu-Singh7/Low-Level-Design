@@ -1,0 +1,18 @@
+public class InvoiceDao {
+    private Invoice invoice;
+
+    public InvoiceDao(Invoice invoice){
+        this.invoice = invoice;
+    }
+
+    public void saveDB(){     // the application will be tested and live if we want to save the data into file
+        // save into DB
+    }
+
+    // we can not make another method in this same class because this is tested and live
+    // Solution : Open Closed Principle allow to extend the another class .
+   /*public void saveDataintoFile(){
+        // save into file
+   } */
+
+}
