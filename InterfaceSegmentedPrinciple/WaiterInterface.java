@@ -1,2 +1,6 @@
-package InterfaceSegmentedPrinciple;public interface WaiterInterface {
+package InterfaceSegmentedPrinciple;
+
+public interface WaiterInterface {
+    void serveCustomer();
+    void takeOrder();
 }

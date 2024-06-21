@@ -1,0 +1,13 @@
+Solution : We can take Interface class rather than concrete classes.
+
+
+public class MakeBook {
+    private final KeyBoard keyBoard;
+    private final  Mouse mouse;
+
+    public MakeBook(KeyBoard keyBoard ,Mouse mouse ){
+        this.keyBoard = keyBoard;
+        this.mouse = mouse;
+    }
+
+}

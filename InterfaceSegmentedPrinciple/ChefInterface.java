@@ -1,2 +1,6 @@
-package InterfaceSegmentedPrinciple;public interface ChefInterface {
+package InterfaceSegmentedPrinciple;
+
+public interface ChefInterface {
+    void cookFood();
+    void decideMenu();
 }

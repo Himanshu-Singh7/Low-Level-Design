@@ -1,0 +1,13 @@
+Dependency Inversion Principle : Class should depend on interface rather than concrete class.
+Solution : Take interface Interface object;
+
+public class Mackbook {
+
+    private final Wiredkeyboard keybord;
+    private final WiredMouse mouse;
+
+    Mackbook(){
+        keybord = new Wiredkeyboard();
+        mouse = new WiredMouse();
+    }
+}
